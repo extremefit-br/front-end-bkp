@@ -1,19 +1,31 @@
-html{
-    height: 100%;
-}
 .login{
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 20% 5%;
-    height: 100%;
 }
-.logo-sesi{
-    width: 115px;
+.align-center{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box-campo{
+    border-bottom: 1px solid red;
+    margin-top: 15px;
+}
+.login__form-input{
+    border: none;
+    width: 95%;
 }
 .link-esqueci-senha{
     color: red;
+    display: flex;
     font-size: 12px;
-    display: block;
+    justify-content: flex-end;
+    text-align: left;
+}
+.login-botao{
+    border: none;
+    background: transparent;
+    font-size: 25px;
+}
+.logo-sesi{
+    width: 115px;
 }
