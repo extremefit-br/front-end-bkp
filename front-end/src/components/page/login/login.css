@@ -29,3 +29,12 @@
 .logo-sesi{
     width: 115px;
 }
+
+@media(min-width: 768px) {
+    .box-campo{
+        width: 500px;
+    }
+    .link-esqueci-senha{
+        width: 500px;
+    }
+}

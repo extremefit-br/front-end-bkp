@@ -2,9 +2,9 @@ import React from 'react'
 import './container.css'
 
 const Container = ({ className, children }) =>(
-    <section className={['container ', className].join('')}>
+    <main className={['container ', className].join('')}>
         {children}
-    </section>
+    </main>
 )
 
 export default Container
