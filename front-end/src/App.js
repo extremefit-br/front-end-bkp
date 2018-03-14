@@ -1,16 +1,19 @@
-import React, { Component } from 'react'
-import { Switch, Router } from 'react-router-dom'
-import logo from './logo.svg'
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
 import './App.css'
 import Login from './components/page/login/login.js'
-import Empresa from './components/page/empresa/empresa.js'
+import Dicas from './components/page/dicas/dicas.js'
 import Footer from './components/footer/footer.js'
 
+
 const App = () =>(
-  <React.Fragment>
-    <Login />
-    <Footer />
-  </React.Fragment>
+	<React.Fragment>
+		<Switch>
+			<Route exact path='/' component={Login} />
+			<Route path="/dicas" component={Dicas} />
+		</Switch>
+		<Footer />
+	</React.Fragment>
 )
 
-export default App;
+export default App

@@ -1,0 +1,11 @@
+.navbar{
+    background: rgb(184, 5, 5);
+    box-sizing: border-box;
+    display: inline-block;
+    height: 80vh;
+    padding-top: 5%;
+    width: 250px;
+}
+.list{
+    margin: 0;
+}
